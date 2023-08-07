@@ -1,3 +1,38 @@
+@media (max-width: 500px) {
+  .title-page {
+    margin-top: 1.25rem !important;
+  }
+  .title-page a img {
+    height: 1.125rem;
+  }
+  .title-page .title-page__text {
+    font-size: 1.875rem;
+  }
+  .card-shadow {
+    padding: 20px !important;
+  }
+  .p-20 {
+    padding: 10px !important;
+  }
+  .p-20 .alert-list {
+    padding: 0 !important;
+  }
+  .item-card-mobile {
+    margin-bottom: 0.313rem;
+  }
+  .medium-button {
+    width: 100% !important;
+  }
+  .d-mobile {
+    flex-direction: column !important;
+  }
+  .d-mobile button {
+    margin-left: 0 !important;
+  }
+  .info-desktop {
+    display: none;
+  }
+}
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #363636;
