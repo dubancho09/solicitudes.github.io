@@ -1,4 +1,11 @@
+.inf-mobile {
+  display: none;
+}
+
 @media (max-width: 500px) {
+  .inf-mobile {
+    display: block;
+  }
   .title-page {
     margin-top: 1.25rem !important;
   }
