@@ -32,6 +32,9 @@
   .info-desktop {
     display: none;
   }
+  .booknote-desktop {
+    display: none;
+  }
 }
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -556,6 +559,18 @@
 }
 .accordion-type-2__body--content.active {
   display: block;
+}
+
+/*Estilos accordion*/
+.accordion-button:not(.collapsed) {
+  color: #363636;
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
 }
 
 .pagination button {

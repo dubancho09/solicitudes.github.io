@@ -46,7 +46,27 @@
           </div>
 
           <div class="d-flex">
-            <button ></button>
+            <button class="btn w-50 button button-icon-error me-1" data-toggle="modal"
+            data-target="#modal-comments">
+              <div class="d-flex align-items-center justify-content-center">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="icon-button" d="M13.583 14.1377L14.1423 13.577L12.6442 12.0751V9.83229H11.8452V12.3955L13.583 14.1377ZM1.1985 14.418C0.868914 14.418 0.586767 14.3004 0.35206 14.0651C0.117353 13.8298 0 13.5469 0 13.2165V1.2015C0 0.871089 0.117353 0.588235 0.35206 0.352941C0.586767 0.117647 0.868914 0 1.1985 0H13.1835C13.5131 0 13.7953 0.117647 14.03 0.352941C14.2647 0.588235 14.382 0.871089 14.382 1.2015V7.78974C14.1956 7.68294 13.9992 7.59616 13.7928 7.52941C13.5864 7.46266 13.3833 7.40926 13.1835 7.36921V1.2015H1.1985V13.2165H7.37079C7.42405 13.4301 7.48413 13.6382 7.55102 13.8407C7.6179 14.0433 7.69764 14.2357 7.79026 14.418H1.1985ZM1.1985 12.2753V13.2165V1.2015V7.36921V7.28911V12.2753ZM3.196 11.214H7.41074C7.464 11.0004 7.52393 10.7935 7.59051 10.5932C7.65709 10.393 7.74365 10.1994 7.85019 10.0125H3.196V11.214ZM3.196 7.80976H10.0674C10.2538 7.71631 10.4336 7.63955 10.6067 7.57947C10.7799 7.5194 10.9729 7.46266 11.186 7.40926V6.60826H3.196V7.80976ZM3.196 4.40551H11.186V3.20401H3.196V4.40551ZM12.2347 16C11.2027 16 10.3204 15.6295 9.58801 14.8886C8.8556 14.1477 8.48939 13.2699 8.48939 12.2553C8.48939 11.2082 8.85553 10.3156 9.58782 9.57763C10.3201 8.8396 11.2057 8.47059 12.2447 8.47059C13.2701 8.47059 14.1523 8.8396 14.8914 9.57763C15.6305 10.3156 16 11.2082 16 12.2553C16 13.2699 15.6305 14.1477 14.8914 14.8886C14.1523 15.6295 13.2667 16 12.2347 16Z" fill="#D81E05"/>
+                  </svg>
+                <span class="ms-2">Bitacora</span>
+              </div>
+            </button>
+            <button data-toggle="modal"
+            data-target="#modal-documents" class="btn w-50 button button-icon-error">
+              <div class="d-flex align-items-center justify-content-center">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path class="icon-button"
+                    d="M3.48889 12.4667H9.6V11.1333H3.48889V12.4667ZM3.48889 8.66667H12.5111V7.33333H3.48889V8.66667ZM3.48889 4.86667H12.5111V3.53333H3.48889V4.86667ZM1.33333 16C0.977778 16 0.666667 15.8667 0.4 15.6C0.133333 15.3333 0 15.0222 0 14.6667V1.33333C0 0.977778 0.133333 0.666667 0.4 0.4C0.666667 0.133333 0.977778 0 1.33333 0H14.6667C15.0222 0 15.3333 0.133333 15.6 0.4C15.8667 0.666667 16 0.977778 16 1.33333V14.6667C16 15.0222 15.8667 15.3333 15.6 15.6C15.3333 15.8667 15.0222 16 14.6667 16H1.33333ZM1.33333 14.6667H14.6667V1.33333H1.33333V14.6667Z"
+                    fill="#D81E05" />
+                </svg>
+                <span class="ms-2">Documentos</span>
+              </div>
+            </button>
           </div>
         </div>
         <div class="col-md-12 mt-3 info-desktop">
@@ -85,6 +105,100 @@
                       2:00p.m</span></span>
                   <span class="description-request__item">Teléfono Radicador: <span class="text-title">1234567890</span>
                   </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion mt-3" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span class="text-title">Resumen de la solicitud</span>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="">
+                  <span class="letter-subtitle text-title">Resumen de la solicitud</span>
+                  <div class="divider my-3"></div>
+      
+                  <div class="alert p-2 text-center">
+                    <span class="letter-subtitle">ANULACIÓN AUTOS INDIVIDUAL - <span class="text-title">Solicitud No.
+                        00001</span> </span>
+                  </div>
+      
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="description-request">
+                        <span class="description-request__item">Paso actual: <b class="text-title">PASO INICIAL - 1</b></span>
+                        <span class="description-request__item">Radicador: <span class="text-title">Nombre Ejemplo Largo
+                            Apellido</span> </span>
+                        <span class="description-request__item">Responsable: <span class="text-title">Nombre Ejemplo Largo
+                            Apellido</span> </span>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="description-request">
+                        <span class="description-request__item">Fecha radicación: <span class="text-title">30/06/2023
+                            2:00p.m</span></span>
+                        <span class="description-request__item">Correo radicador: <span
+                            class="text-title">Nombrapellido@gmail.com</span> </span>
+                        <span class="description-request__item">ANS Solicitud: <span class="text-title">16
+                            (Horas/Hábiles)</span> </span>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="description-request">
+                        <span class="description-request__item">Fecha vencimiento: <span class="text-title">30/06/2023
+                            2:00p.m</span></span>
+                        <span class="description-request__item">Teléfono Radicador: <span class="text-title">1234567890</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span class="text-title">Información general</span>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="">
+                  <span class="letter-subtitle text-title">Información adicional</span>
+                  <div class="divider my-3"></div>
+      
+                  <div class="alert alert-secondary">
+                    <div class="d-flex">
+                      <img src="./assets/img/car-icon.svg" alt="car icon">
+                      <span class="letter-medium ms-2">Producto: <b class="text-title">POLIZA AUTOS 1123 1600 CC -
+                          DYZ624</b></span>
+                    </div>
+                  </div>
+      
+                  <div class="alert alert-secondary">
+                    <span class="letter-medium">Intermediario: <span class="text-title">Nombre Largo Apellido
+                        Largo</span></span>
+                  </div>
+      
+                  <div class="alert alert-secondary">
+                    <span class="letter-medium">Tomador: <span class="text-title">Nombre Largo 2 Apellido Largo
+                        2</span></span>
+                  </div>
+      
+                  <div class="alert alert-secondary">
+                    <span class="letter-medium">NIT Tomador: <span class="text-title">1234567890</span></span>
+                  </div>
+      
+                  <div class="alert alert-secondary">
+                    <span class="letter-medium"> Póliza grupo: <span class="text-title">EJEMPLO NOMBRE LARGO</span></span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -943,7 +1057,7 @@
             </div>
           </div>
 
-          <div class="card card-shadow p-5 mt-3">
+          <div class="card card-shadow booknote-desktop p-5 mt-3">
             <div class="d-flex justify-content-between align-items-center">
               <span class="letter-subtitle text-title">Documentos</span>
               <img role="button" class="mb-1" src="./assets/img/question-icon.svg" alt="question-icon">
@@ -1070,7 +1184,7 @@
 
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 info-desktop">
           <div class="card card-shadow pt-5 pb-4 px-4">
             <span class="letter-subtitle text-title">Información adicional</span>
             <div class="divider my-3"></div>
@@ -1105,7 +1219,7 @@
 
           </div>
 
-          <div class="card card-shadow pt-5 pb-3 px-4 mt-2">
+          <div class="card card-shadow pt-5 pb-3 px-4 mt-2 booknote-desktop">
             <div class="d-flex justify-content-between align-items-center">
               <span class="letter-subtitle text-title">Bitácora</span>
               <img role="button" class="mb-1" src="./assets/img/question-icon.svg" alt="question-icon">
@@ -1320,6 +1434,127 @@
                     eiusmod tempor incididunt ut labore </span>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal documentos -->
+    <div class="modal fade" id="modal-documents" tabindex="-1" role="dialog" aria-labelledby="modal-arma-fuego"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="d-flex justify-content-end mt-2 me-2">
+            <span class="btn-close" data-dismiss="modal" aria-label="Close"></span>
+          </div>
+          <div class="modal-body mt-1">
+            <div class="container  mb-4">
+              <div class="text-center">
+                <span class="d-block"><strong class="text-title nomal-subtitle">Documentos</strong></span>
+              </div>
+
+              <div class="divider my-4"></div>
+
+              <div class="scroll-modal">
+                <div class="alert alert-secondary mt-3">
+                  <div class="row align-items-center justify-content-center">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <img src="./assets/img/img_icon.svg" alt="icon image">
+                        <span class="letter-medium ms-1">Ejemplo_nombre.jpg</span>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 mt-2">
+                      <div class="d-flex justify-content-between">
+                        <span class="letter-medium">Usuario 12345</span>
+                        <span class="letter-medium">30/08/2023 / 12:00 pm</span>
+                      </div>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+                <div class="alert alert-secondary mt-3">
+                  <div class="row align-items-center justify-content-center">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <img src="./assets/img/img_icon.svg" alt="icon image">
+                        <span class="letter-medium ms-1">Ejemplo_nombre.jpg</span>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 mt-2">
+                      <div class="d-flex justify-content-between">
+                        <span class="letter-medium">Usuario 12345</span>
+                        <span class="letter-medium">30/08/2023 / 12:00 pm</span>
+                      </div>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+                <div class="alert alert-secondary mt-3">
+                  <div class="row align-items-center justify-content-center">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <img src="./assets/img/img_icon.svg" alt="icon image">
+                        <span class="letter-medium ms-1">Ejemplo_nombre.jpg</span>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 mt-2">
+                      <div class="d-flex justify-content-between">
+                        <span class="letter-medium">Usuario 12345</span>
+                        <span class="letter-medium">30/08/2023 / 12:00 pm</span>
+                      </div>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+                <div class="alert alert-secondary mt-3">
+                  <div class="row align-items-center justify-content-center">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <img src="./assets/img/img_icon.svg" alt="icon image">
+                        <span class="letter-medium ms-1">Ejemplo_nombre.jpg</span>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 mt-2">
+                      <div class="d-flex justify-content-between">
+                        <span class="letter-medium">Usuario 12345</span>
+                        <span class="letter-medium">30/08/2023 / 12:00 pm</span>
+                      </div>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+                <div class="alert alert-secondary mt-3">
+                  <div class="row align-items-center justify-content-center">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <img src="./assets/img/img_icon.svg" alt="icon image">
+                        <span class="letter-medium ms-1">Ejemplo_nombre.jpg</span>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 mt-2">
+                      <div class="d-flex justify-content-between">
+                        <span class="letter-medium">Usuario 12345</span>
+                        <span class="letter-medium">30/08/2023 / 12:00 pm</span>
+                      </div>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+                
+              </div>
+              
             </div>
           </div>
         </div>
